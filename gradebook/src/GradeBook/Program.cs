@@ -8,6 +8,7 @@ namespace GradeBook
         {
             double x = 4.5;
             double y = 5.3;
+            double result = x + y;
 
             if(args.Length > 0)
             {
