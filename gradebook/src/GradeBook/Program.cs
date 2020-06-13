@@ -8,17 +8,20 @@ namespace GradeBook
         static void Main(string[] args)
         {
             double[] numbers = new [] {3.4, 1.4, 9.5};
-            List grades;
+            var grades = new List<double>() {3.4, 1.4, 9.5, 8.3};
             var results = 0.0;
-            foreach(double number in numbers)
+            foreach(var grade in grades)
             {
-                results += number;
+                double total;
+                total += grade;
+                results = total / grades.count();
             }
 
             if(args.Length > 0)
             {
-                Console.WriteLine($"Hello {args[0]}");
+                Console.WriteLine($"Hello {args[0]}!");
             }
+
             else
             {
                 Console.WriteLine("Hello!");
