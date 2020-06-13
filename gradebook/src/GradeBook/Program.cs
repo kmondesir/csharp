@@ -6,9 +6,12 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            double x = 4.5;
-            double y = 5.3;
-            double result = x + y;
+            double[] numbers = new [] {3.4, 1.4, 9.5};
+            var results = 0.0;
+            foreach(double number in numbers)
+            {
+                results += number;
+            }
 
             if(args.Length > 0)
             {
@@ -17,7 +20,7 @@ namespace GradeBook
             else
             {
                 Console.WriteLine("Hello!");
-                Console.WriteLine(x+y);
+                Console.WriteLine(results);
             }
         }
     }
