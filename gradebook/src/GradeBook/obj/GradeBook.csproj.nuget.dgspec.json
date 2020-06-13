@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/owner/repos/csharp/gradebook/src/GradeBook/GradeBook.csproj": {}
+    "c:\\Users\\Owner\\repos\\csharp\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "/Users/owner/repos/csharp/gradebook/src/GradeBook/GradeBook.csproj": {
+    "c:\\Users\\Owner\\repos\\csharp\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/owner/repos/csharp/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectUniqueName": "c:\\Users\\Owner\\repos\\csharp\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "/Users/owner/repos/csharp/gradebook/src/GradeBook/GradeBook.csproj",
-        "packagesPath": "/Users/owner/.nuget/packages/",
-        "outputPath": "/Users/owner/repos/csharp/gradebook/src/GradeBook/obj/",
+        "projectPath": "c:\\Users\\Owner\\repos\\csharp\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Owner\\repos\\csharp\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/owner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
