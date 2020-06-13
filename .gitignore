@@ -57,6 +57,7 @@ x64/
 *.pidb
 *.log
 *.scc
+*.nuget.*
 
 # OS generated files #
 .DS_Store*
@@ -69,6 +70,7 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+*.cache
 
 # Visual Studio profiler
 *.psess
