@@ -9,8 +9,9 @@ namespace GradeBook
         {
             Book book1 = new Book("King");
             book1.Add(9.9);
-            book1.Add(3.4);
-
+            book1.Add(5.0);
+            book1.Add(2.4);
+            book1.Add(3.9);
 
             double[] numbers = new [] {3.4, 1.4, 9.5};
             var grades = new List<double>() {3.4, 1.4, 9.5, 8.3};

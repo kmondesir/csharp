@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 namespace GradeBook
 {
   class Book 
@@ -18,6 +19,16 @@ namespace GradeBook
     public double Average()
     {
       return grades.AddRange / grades.Count;
+    }
+
+    public double Max()
+    {
+      return grades.Max();
+    }
+
+    public double Min()
+    {
+      return grades.Min();
     }
   }
 }
