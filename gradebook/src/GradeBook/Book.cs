@@ -23,12 +23,14 @@ namespace GradeBook
 
     public double Max()
     {
-      return grades.Max();
+      grades.Sort();
+      return grades[-1];
     }
 
     public double Min()
     {
-      return grades.Min();
+      grades.Sort();
+      return grades[0];
     }
   }
 }
